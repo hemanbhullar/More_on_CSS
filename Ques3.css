@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    background-color: #508cf3;
+    display: flex;
+    gap: 3rem;
+    padding: 30px;
+}
+
+.nav-bar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.nav-bar a:nth-child(1){
+    border: 3px solid rgb(208, 15, 218);
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav-bar a:nth-child(2){
+    border:3px dotted rgb(128, 128, 128);
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav-bar a:nth-child(3){
+    border: 3px dashed red;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav-bar a:nth-child(4){
+    border: 3px groove  pink;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav-bar a:nth-child(5){
+    border: 3px inset  black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
